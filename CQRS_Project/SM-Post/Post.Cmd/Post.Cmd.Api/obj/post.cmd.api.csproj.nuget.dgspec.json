@@ -1,0 +1,342 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.api/post.cmd.api.csproj": {}
+  },
+  "projects": {
+    "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+        "projectName": "CQRS.Core",
+        "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+        "packagesPath": "/Users/aghowzlane/.nuget/packages/",
+        "outputPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aghowzlane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.api/post.cmd.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.api/post.cmd.api.csproj",
+        "projectName": "post.cmd.api",
+        "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.api/post.cmd.api.csproj",
+        "packagesPath": "/Users/aghowzlane/.nuget/packages/",
+        "outputPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aghowzlane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj"
+              },
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.infrastucture/post.cmd.infrastucture.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.infrastucture/post.cmd.infrastucture.csproj"
+              },
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj",
+        "projectName": "post.cmd.domain",
+        "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj",
+        "packagesPath": "/Users/aghowzlane/.nuget/packages/",
+        "outputPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aghowzlane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.infrastucture/post.cmd.infrastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.infrastucture/post.cmd.infrastucture.csproj",
+        "projectName": "post.cmd.infrastucture",
+        "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.infrastucture/post.cmd.infrastucture.csproj",
+        "packagesPath": "/Users/aghowzlane/.nuget/packages/",
+        "outputPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.infrastucture/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aghowzlane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/Post.cmd/post.cmd.domain/post.cmd.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj",
+        "projectName": "post.common",
+        "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/post.common.csproj",
+        "packagesPath": "/Users/aghowzlane/.nuget/packages/",
+        "outputPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/SM-Post/post.common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aghowzlane/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/Users/aghowzlane/Desktop/Learning/CQRS_Project/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
