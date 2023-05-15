@@ -10,18 +10,6 @@ namespace Post.Cmd.Infrastucture.Despatchers
 {
     public class CommandDespatcher : ICommandDespatcher
     {
-        private readonly Dictionary<Type, Func<BaseCommand, TaskAwaiter>> _handlers = new();
-        {
-            if (_)
-            {
-                
-            }
-            throw new NotImplementedException();
-        }
-
-        public Task SendAsync(BaseCommand command)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
